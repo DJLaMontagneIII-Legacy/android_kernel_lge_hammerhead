@@ -373,7 +373,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Werror-implicit-function-declaration \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks -mno-unaligned-access \
-                   -mcpu=cortex-a8 -mtune=cortex-a15 -mfpu=neon-vfpv4 \
+                   -mcpu=cortex-a9 -mtune=cortex-a15 -mfpu=neon-vfpv4 \
                    -funsafe-math-optimizations -ftree-vectorize
 
 KBUILD_AFLAGS_KERNEL :=
